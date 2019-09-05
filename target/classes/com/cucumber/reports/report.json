@@ -1,0 +1,320 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user validate the automation practise home page",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-validate-the-automation-practise-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9389319605,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User hit the Automation Practice website",
+            "match": {
+              "location": "StepDefinition.user_hit_the_Automation_Practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 282720637,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the site logo",
+            "match": {
+              "location": "StepDefinition.user_verify_the_site_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10819282,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verifies the page title",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@testcase"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify user login the application with valid credentials",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-login-the-application-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5555906281,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on SignIn button in header",
+            "match": {
+              "location": "StepDefinition.user_click_on_SignIn_button_in_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 947088237,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the email id \u0027poorna1@gmail.com\u0027 in the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "poorna1@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_email_id_in_the_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 411391336,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the password \u0027abc123\u0027 in the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_password_in_the_login_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2368262526,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on login button in the login page",
+            "match": {
+              "location": "StepDefinition.user_click_on_login_button_in_the_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100781,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User verifies the username \u0027poorna kala\u0027 present in the header",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_username_poorna_kala_present_in_the_header()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@testcase1"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify user searching products with more steps",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-searching-products-with-more-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371472676,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User mouseover the Women option present in the product search page",
+            "match": {
+              "location": "StepDefinition.user_mouseover_the_Women_option_present_in_the_product_search_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7393119987,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click the Summer dresses appear in the category page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Summer_dresses_appear_in_the_category_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90893,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User verifies the SUMMER DRESSES displayed in the product page",
+            "match": {
+              "location": "StepDefinition.user_verifies_the_SUMMER_DRESSES_displayed_in_the_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90512,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select the dropdown button to sort the product",
+            "match": {
+              "location": "StepDefinition.user_select_the_dropdown_button_to_sort_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3415148364,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on the selected product",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_selected_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144516,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verfies whether the same product is displayed",
+            "match": {
+              "location": "StepDefinition.user_verfies_whether_the_same_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@testcase2"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify user adding the product to cart",
+        "description": "",
+        "id": "automation-practice-end-to-end-test-automation-scenario;verify-user-adding-the-product-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 132346,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User choose the Quantity and size present in the cart page",
+            "match": {
+              "location": "StepDefinition.user_choose_the_Quantity_and_size_present_in_the_cart_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60220189832,
+              "error_message": "java.lang.Exception\r\n\tat com.cucumber.baseclass.baseClass.Click(baseClass.java:284)\r\n\tat com.cucumber.stepdefinition.StepDefinition.user_click_on_the_add_to_cart_button(StepDefinition.java:112)\r\n\tat ✽.And User click on the add to cart button(AutomationPgrm.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "User click on the add to cart button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User Verfy the product add to cart successfully",
+            "match": {
+              "location": "StepDefinition.user_Verfy_the_product_add_to_cart_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User click on the proceed to checkout button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "verify the product summary page",
+            "match": {
+              "location": "StepDefinition.verify_the_product_summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@testcase3"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice end to end Test automation scenario",
+    "description": "this feature file includes login,search the product,adding to cart",
+    "id": "automation-practice-end-to-end-test-automation-scenario",
+    "keyword": "Feature",
+    "uri": "AutomationPgrm.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@APendtoend"
+      }
+    ]
+  }
+]

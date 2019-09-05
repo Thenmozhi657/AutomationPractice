@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="90.365998">
+<testcase classname="Automation Practice end to end Test automation scenario" name="Verify user validate the automation practise home page" time="9.68286">
+<system-out><![CDATA[Given User hit the Automation Practice website..............................passed
+Then User verify the site logo..............................................passed
+And User verifies the page title............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice end to end Test automation scenario" name="Verify user login the application with valid credentials" time="9.282749">
+<system-out><![CDATA[When User click on SignIn button in header..................................passed
+And User enter the email id 'poorna1@gmail.com' in the login page...........passed
+And User enter the password 'abc123' in the login page......................passed
+And User click on login button in the login page............................passed
+Then User verifies the username 'poorna kala' present in the header.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice end to end Test automation scenario" name="Verify user searching products with more steps" time="11.180067">
+<system-out><![CDATA[When User mouseover the Women option present in the product search page.....passed
+And User click the Summer dresses appear in the category page...............passed
+Then User verifies the SUMMER DRESSES displayed in the product page.........passed
+And User select the dropdown button to sort the product.....................passed
+And User click on the selected product......................................passed
+Then User verfies whether the same product is displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice end to end Test automation scenario" name="Verify user adding the product to cart" time="60.220322">
+<failure message="java.lang.Exception&#13;&#10;&#9;at com.cucumber.baseclass.baseClass.Click(baseClass.java:284)&#13;&#10;&#9;at com.cucumber.stepdefinition.StepDefinition.user_click_on_the_add_to_cart_button(StepDefinition.java:112)&#13;&#10;&#9;at ✽.And User click on the add to cart button(AutomationPgrm.feature:30)&#13;&#10;"><![CDATA[When User choose the Quantity and size present in the cart page.............passed
+And User click on the add to cart button....................................failed
+Then User Verfy the product add to cart successfully........................skipped
+And User click on the proceed to checkout button............................skipped
+Then verify the product summary page........................................skipped
+
+StackTrace:
+java.lang.Exception
+	at com.cucumber.baseclass.baseClass.Click(baseClass.java:284)
+	at com.cucumber.stepdefinition.StepDefinition.user_click_on_the_add_to_cart_button(StepDefinition.java:112)
+	at ✽.And User click on the add to cart button(AutomationPgrm.feature:30)
+]]></failure>
+</testcase>
+</testsuite>
